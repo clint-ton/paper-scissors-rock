@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #246EB9;
+    height: 100vh;
+    
+}
+
+.buttons {
+    align-self: center;
+    padding: 96px;
+    padding-bottom: 32px
+}
+
+button {
+    font-size: 96px;
+    background-color: #FDFFFC;
+    border-radius: 25px;
+    border: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+.header {
+    align-self: center;
+    padding: 100px;
+    color: #1d293a;
+    font-family: 'Roboto';
+    font-size: 96px;
+    font-weight: 300;
+}
+.box {
+    width: 25px;
+    background-color: #385174;
+    height: 25px;
+}
+
+.ticked-box {
+    background-color: #4CB944;
+}
+
+.crossed-box {
+    background-color: #F06543;
+}
+
+.results {
+    display: flex;
+    justify-content: space-around;
+}
+
+.computer, 
+.player {
+    display: flex;
+    gap: 16px;
+
+}
+
+.refresh{
+    font-size: 24px;
+    align-self: center;
+    /* margin-bottom: 36px; */
+}
